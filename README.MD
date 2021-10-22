@@ -1,4 +1,3 @@
-## REACT (not only) web app notes
 This is a notebook, usefull when creating React app.
 When you see "*", that is a non-react context or not-only.
 
@@ -7,7 +6,7 @@ Reading this repo will help you.
 Always learn this before start a project.
 This content is always "work in progress".
 
-TOOLS
+##TOOLS
 
 VsCode extensions 🔧
 
@@ -15,12 +14,11 @@ VsCode extensions 🔧
 - Live Server (VsCode extensions) *
 - HTML CSS JS Support (VsCode extensions)
 
-APP
+##APP
 
 - ResponsivelyApp
 
-
-HTML
+##HTML
 
 - follow this steps: react components -> grid/flex -> flex -> no div tag when is possible.
 - in projects with very different layout between desktop and browser, follow this mindset:
@@ -30,7 +28,7 @@ HTML
 - don't put hard-coded class/id when inside return 
 - don't put "props.anything" inside return 
 
-LOGIC & JS:
+##LOGIC & JS:
 
 - write clean and mantainble code
 - write for others developers
@@ -45,7 +43,7 @@ LOGIC & JS:
     - .. u can clone the object adding key with package like uuvd but do this:
         - const clonedObject = originalObject.map(item => ...item, id: uuvd()) 
 
-CSS
+##CSS
 
 - follow this steps:
     - css with var from the beginning
@@ -67,10 +65,7 @@ CSS
     - every styled component inside a single file
     - don't stylize "h1", stylize const H1 = styled.button`...`
 
-![alt text](./stylesSetup.jpg)
-
-
-REACT
+##REACT
 
 - insert this in package.json under private, to be sure the build will be ok:
     "homepage": "."
@@ -99,7 +94,7 @@ REACT
         - when is possible pass only the necessary prop to the child, not the entire object
         - when is possible retrive the props destructuring
 
-MANIFEST 
+##MANIFEST 
 
 - <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> in index
 
@@ -116,13 +111,13 @@ Favicon:
         }
     ]
 
-OPEN GRAPH
+##OPEN GRAPH
 
 - 
 - 
 - 
 
-SERVER 
+##SERVER 
 
 - avoid 404 from server when refreshing page. Add .htaccess file in public folder with this:
     RewriteEngine On
@@ -132,7 +127,7 @@ SERVER
 
     this will redirect all requests to server to index.html.
 
-FINALLY CHECK
+##FINALLY CHECK
 
 - check for duplicated css by inspector (pay attention). !!! I need better tool.. 
 - check crossbrowser styles
