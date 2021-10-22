@@ -41,7 +41,7 @@ VsCode extensions 🔧
     - use internal object values or.. 
     - ..if there aren't useable values, concat that values in order to create secure keys or..
     - .. u can clone the object adding key with package like uuvd but do this:
-        - const clonedObject = originalObject.map(item => ...item, id: uuvd()) 
+    - const clonedObject = originalObject.map(item => ...item, id: uuvd()) ||| Do it outside component!
 
 ## CSS
 
