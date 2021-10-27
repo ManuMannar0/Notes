@@ -11,8 +11,10 @@ This content is always "work in progress".
 VsCode extensions 🔧
 
 - Prettier (VsCode extensions)
+- vscode-styled-components
+- Color Highlight
+- Bracket Pair Colorizer
 - Live Server (VsCode extensions) *
-- HTML CSS JS Support (VsCode extensions)
 
 ## APP
 
