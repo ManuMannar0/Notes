@@ -62,7 +62,7 @@ VsCode extensions 🔧
     - write @media only screen and (max-width: resolution px) {}
 
 - consider useing styled components: 
-    - every styled component inside a single file
+    - every styled component inside the component file
     - don't stylize "h1", stylize const H1 = styled.button`...`
 
 ## REACT
